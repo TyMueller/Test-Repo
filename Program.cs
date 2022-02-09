@@ -1,4 +1,5 @@
 ﻿using System;
+using SkaterBoi;
 
 namespace Test_Repo
 {
@@ -6,7 +7,9 @@ namespace Test_Repo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Skater skater = new Skater();
+            skater.Skate();
+            
         }
     }
 }
